@@ -29,8 +29,8 @@
   font-size: 16px;
   font-weight: normal;
 }
-.type_title_container{
-    margin-top: 10px;
+.type_title_container {
+  margin-top: 10px;
 }
 
 .types_container {
@@ -139,4 +139,25 @@
 
 .data_height {
   border-right: 1px solid #ccc;
+}
+
+.btn {
+  background-color: #333;
+  border-radius: 20px;
+  padding: 0.7em 1.2em;
+  font-weight: bold;
+  margin: 15px 0 0 0;
+  transition: 0.4s;
+  max-width: 40%;
+  margin-left: auto;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.7s;
+  border-bottom: 2px solid transparent;
+}
+
+.btn a:hover {
+  border-color: #fff;
 }

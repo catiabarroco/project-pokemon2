@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/Pokemon.module.css";
+import Link from "next/dist/client/link";
 
 export const getStaticPaths = async () => {
   const maxPokemons = 251; //nro maximo de pokemons
@@ -67,6 +68,11 @@ export default function Pokemon({ pokemon }) {
           <h4>Peso:</h4>
           <p>{pokemon.weight / 10} kg</p>
         </div>
+      </div>
+      <div className={styles.btn}>
+        <Link href="\">
+          <a>Return</a>
+        </Link>
       </div>
     </div>
   );
