@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className={styles.about}>
       <h1>Sobre o projeto</h1>
-      <p>Este site é uma prenda especial para o Leonardo e para o Dinis.</p>
+      <p>Este site é uma Prenda Especial para o Leonardo e para o Dinis.</p>
       <p>
         Assim vocês podem descobrir um pouco mais sobre Pokemons, enquanto a
         vossa tia faz coisas chatas (o jantar, por exemplo)
