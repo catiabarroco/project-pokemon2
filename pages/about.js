@@ -4,13 +4,13 @@ import styles from "../styles/About.module.css";
 export default function About() {
   return (
     <div className={styles.about}>
-      <h1>Sobre o projeto</h1>
-      <p>Este site é uma Prenda Especial para o Leonardo e para o Dinis.</p>
-      <p>
-        Assim vocês podem descobrir um pouco mais sobre Pokemons, enquanto a
-        vossa tia faz coisas chatas (o jantar, por exemplo)
-      </p>
-      <p>Beijinhos da Cátia... (da casa da Arvore)</p>
+      	<h1>Marco Pinto</h1>
+			<p>Este site é uma prenda especial para o Marco.</p>
+			<p>
+				Assim podes descobrir um pouco mais sobre Pokemons, enquanto os
+				pais fazem coisas chatas (o jantar, por exemplo 😁)
+			</p>
+			<p>Beijinhos do João e da Cátia... Espero que gostes ❤️</p>
       <Image
         src="/images/charizard.png"
         width="300"
